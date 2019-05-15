@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+
+}
+.header {
+    font-size: 50px;
+    border: 1px solid blue;
+    display: inline-block; 
+    width: max-content;
+    left: 50%;
+
+}
+.demo {
+    border: 1px solid green;
+    font-size:20px;
+    color: blueviolet;
+    place-content: center;
+    width: max-content;
+    display: inline-block;
+}
+.random {
+    border: 1px solid aqua;
+    font-size: 30px;
+    height: 150px;
+    width: 150px;
+}
+.scoreboard {
+    border: 1px solid orange;
+    font-size: 25px;
+    height: 150px;
+    width: 150px;
+}
+.crystals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.crystal {
+    height: 200px;
+    width: 200px;
+    border:1px solid green;
+}
+.score {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    font-size: 25px;
+}
